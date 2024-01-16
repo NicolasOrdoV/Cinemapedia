@@ -6,6 +6,6 @@ class ActorMapper {
       Actor(
         id: cast.id, 
         name: cast.name, 
-        profilePath: cast.profilePath != null ? 'https://image.tmdb.org/t/p/w500${cast.profilePath}' : 'no-poster', 
+        profilePath: cast.profilePath != null ? 'https://image.tmdb.org/t/p/w500${cast.profilePath}' : 'https://www.movienewsletters.net/photos/000000H1.jpg', 
         character: cast.character);
 }

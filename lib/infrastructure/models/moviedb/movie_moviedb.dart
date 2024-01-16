@@ -50,7 +50,7 @@ class MovieMovieDB {
 
     Map<String, dynamic> toJson() => {
         "adult": adult,
-        "backdrop_path": backdropPath,
+        "backdrop_path": backdropPath ?? '',
         "genre_ids": List<dynamic>.from(genreIds.map((x) => x)),
         "id": id,
         "original_language": originalLanguage,
